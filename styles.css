@@ -1,11 +1,15 @@
 body {
-  background-color: #555;
+  background-color: #fff;
 }
 .container {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   border: 3px solid #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .row {
   width: 100%;
@@ -13,7 +17,7 @@ body {
 }
 .box {
   float: left;
-  height: 400px;
+  height: 700px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -21,12 +25,21 @@ body {
   border: 3px solid #fff;
   background-color: #bbb;
 }
-.full {
+.w100 {
   width: 100%;
 }
-.half {
+.w70 {
+  width: 70%;
+}
+.w50 {
   width: 50%;
 }
-.quarter {
+.w30 {
+  width: 30%;
+}
+.w25 {
   width: 25%;
+}
+.w30 {
+  width: 30%;
 }
