@@ -38,11 +38,11 @@ body {
 .w100:before {
   content: 'w100';
 }
-.w60 {
-  width: 60%;
+.w65 {
+  width: 65%;
 }
-.w60:before {
-  content: 'w60';
+.w65:before {
+  content: 'w65';
 }
 .w50 {
   width: 50%;
@@ -50,11 +50,11 @@ body {
 .w50:before {
   content: 'w50';
 }
-.w40 {
-  width: 40%;
+.w35 {
+  width: 35%;
 }
-.w40:before {
-  content: 'w40';
+.w35:before {
+  content: 'w35';
 }
 .w25 {
   width: 25%;
