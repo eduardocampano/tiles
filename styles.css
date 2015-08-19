@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   font: 12px Verdana, Arial, sans-serif;
+  margin: 0;
 }
 .container {
   width: 100%;
@@ -37,11 +38,11 @@ body {
 .w100:before {
   content: 'w100';
 }
-.w70 {
-  width: 70%;
+.w60 {
+  width: 60%;
 }
-.w70:before {
-  content: 'w70';
+.w60:before {
+  content: 'w60';
 }
 .w50 {
   width: 50%;
@@ -49,11 +50,11 @@ body {
 .w50:before {
   content: 'w50';
 }
-.w30 {
-  width: 30%;
+.w40 {
+  width: 40%;
 }
-.w30:before {
-  content: 'w30';
+.w40:before {
+  content: 'w40';
 }
 .w25 {
   width: 25%;
